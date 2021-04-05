@@ -1,0 +1,150 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    size: 3rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color:white;
+}
+p{
+    color: #8f8f8f;
+}
+#title{
+    background-color: #ff4c68;
+}
+
+.container-fluid{
+    padding:3% 15% 7%;
+}
+.mainh1{
+    font-size: 3rem;
+    color:white;
+}
+.navbar-brand{
+    font-size:2rem;
+    text-shadow: 2;
+}
+.nav-link{
+    font-size:1.2rem;
+    margin: 18px;
+}
+.downlodButton{
+    margin:5% 3% 5% 0;
+}
+#features{
+    text-align: center;
+    padding:7% 12%;
+}
+.fas{
+    color:#f75b72;
+    padding:5% 2%;
+}
+.fas:hover{
+    color:#ff0026
+}
+.rupee{
+    color:black;
+}
+.asd{
+    padding:5%;
+}
+
+/***************Testimonials*****************/
+
+.testimonials{
+    padding:7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color:white;
+}
+.testimonial{
+width: 10%;
+border-radius: 100%;
+margin: 25px;
+}
+#press{
+background-color: #ff4c68;
+padding: 5% 6%;
+text-align: center;
+}
+.pressa{
+    width: 200px;
+    padding-left:20px;
+    padding-bottom: 20px;
+}
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+.iphone{
+   
+    position: absolute;
+    z-index: 0;
+    transform: rotate(25deg);
+    padding-top: 20px;
+    width: 55%;
+    right:30%;
+   
+}
+
+#features{
+    position: relative;
+    z-index: 1;
+   background-color: white;
+
+}
+
+/********************Call to Action*******************/
+
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+}
+.foot{
+    font-size: 3.5rem;
+}
+#footer{
+    text-align: center;
+    padding:7% 15%;
+    color:gray;
+    
+}
+.footimg{
+    padding: 10px 15px;
+    padding-bottom: 50px;
+}
+.copyright{
+    font-size: 0.7rem;
+    padding-top: 50px;
+}
+
+/********************Media Query************************/
+
+@media (max-width:768px){
+
+#title{
+    text-align: center;
+}    
+ .iphone{
+     position: static;
+     transform: rotate(0);
+ }
+ .maih1{
+     font-size: 50%;
+ }
+
+}
+
